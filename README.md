@@ -1,9 +1,7 @@
   <div align="center">
 
   ### ☠️ &nbsp; CYBERSECURITY &nbsp; TOOLKIT &nbsp; B Y &nbsp; R O H I T &nbsp; ☠️
-
-  [![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-cybersec--toolkit.netlify.app-00ff41?style=for-the-badge)](https://cybersec-toolkit.netlify.app/)
-
+  
   </div>
   
   ---
@@ -513,43 +511,6 @@
 
   ---
 
-  ## 🚀 Running Locally
-
-  ### Prerequisites
-  - Node.js 18+
-  - npm
-
-  ### Setup
-
-  ```bash
-  # 1. Clone the repository
-  git clone https://github.com/rohit-1006/cyber-recon-toolkit.git
-  cd cyber-recon-toolkit
-
-  # 2. Install dependencies
-  npm install
-
-  # 3. Configure environment variables (required for AI features)
-  cp .env.example .env
-  # Edit .env — add your GEMINI_API_KEY at minimum
-
-  # 4. Start dev server (Express backend + Vite frontend)
-  npm run dev
-
-  # 5. Open in browser
-  # http://localhost:5173
-
-  # --- Production ---
-  npm run build       # Build for production
-  npm run preview     # Preview production build
-  ```
-
-  ### Environment Variables
-
-  ```env
-  GEMINI_API_KEY=your_gemini_api_key_here
-  ```
-
   All AI features (Threat Intel, AI Assistant, Report Enhancer) require the Gemini key. Every other feature — all 2,900+ commands, exports, favorites, history, graph, collab — works without any API key.
 
   ---
@@ -586,10 +547,6 @@
   <div align="center">
 
   **CYBER RECON TOOLKIT © 2026 — All rights reserved.**
-
-  ```
-  [ root@recon ~]# █
-  ```
 
   _Stay legal. Stay ethical. Happy hunting._ ☠️
 
