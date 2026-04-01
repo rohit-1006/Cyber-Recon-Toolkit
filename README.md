@@ -24,45 +24,7 @@
   [![Stealth](https://img.shields.io/badge/Stealth-100%25-yellow?style=flat-square)]()
 
   </div>
-
-  ---
-
-  ## 📖 Table of Contents
-
-  - [Overview](#-overview)
-  - [Live Demo](#-live-demo)
-  - [Tech Stack](#-tech-stack)
-  - [How It Works](#-how-it-works)
-  - [UI & Interface](#-ui--interface)
-    - [Matrix Rain Background](#matrix-rain-background)
-    - [Target Input Terminal](#target-input-terminal)
-    - [Stats Bar](#stats-bar)
-    - [Command Controls Toolbar](#command-controls-toolbar)
-    - [Category Filter Bar](#category-filter-bar)
-    - [Command Cards](#command-cards)
-    - [Modals & Overlays](#modals--overlays)
-  - [All 99 Attack Categories](#-all-99-attack-categories)
-    - [Web Application Security](#web-application-security)
-    - [Reconnaissance & OSINT](#reconnaissance--osint)
-    - [Network & Infrastructure](#network--infrastructure)
-    - [Cloud & Container Security](#cloud--container-security)
-    - [Exploitation & Post-Exploitation](#exploitation--post-exploitation)
-    - [Reverse Engineering & Forensics](#reverse-engineering--forensics)
-    - [Cryptography & Blockchain](#cryptography--blockchain)
-    - [Hardware & Wireless](#hardware--wireless)
-    - [Threat Detection & Intelligence](#threat-detection--intelligence)
-    - [Advanced & Specialized](#advanced--specialized)
-  - [MODULES Portal](#-modules-portal)
-  - [AI Features](#-ai-features)
-  - [Variable Substitution System](#-variable-substitution-system)
-  - [Persistence & Storage](#-persistence--storage)
-  - [Export Capabilities](#-export-capabilities)
-  - [Theme System](#-theme-system)
-  - [Running Locally](#-running-locally)
-  - [Project Structure](#-project-structure)
-  - [Ethical & Legal Use](#-ethical--legal-use)
-  - [Author](#-author)
-
+  
   ---
 
   ## 🔍 Overview
@@ -608,56 +570,6 @@
   ```
 
   All AI features (Threat Intel, AI Assistant, Report Enhancer) require the Gemini key. Every other feature — all 2,900+ commands, exports, favorites, history, graph, collab — works without any API key.
-
-  ---
-
-  ## 📁 Project Structure
-
-  ```
-  cyber-recon-toolkit/
-  │
-  ├── index.html                       # Vite HTML entry point
-  ├── package.json                     # Node dependencies & scripts
-  ├── .env.example                     # Environment variable template
-  ├── server.ts                        # Express.js backend — Gemini API proxy + Socket.io
-  │
-  ├── src/
-  │   ├── App.tsx                      # Main application (2,156 lines)
-  │   │                                # UI, all modals, all exports,
-  │   │                                # ReportGenerator, StateManager, CheatsheetModal
-  │   │
-  │   ├── commands.ts                  # 41 categories · ~1,396 commands
-  │   │                                # Web App Security, Recon, Network, Cloud, Mobile, AI, RE, IoT
-  │   ├── commands2.ts                 # 10 categories · ~307 commands
-  │   │                                # WAF, CMS, Email, Source Code, Fuzzing, Forensics, VoIP
-  │   ├── commands3.ts                 # 48 categories · ~1,200 commands
-  │   │                                # Deep Forensics, RE tooling, Blockchain, C2, Evasion, Threat Intel
-  │   │
-  │   ├── components/
-  │   │   ├── Dashboard.tsx            # Attack Surface Matrix — live D3 node stats
-  │   │   ├── GraphVisualizer.tsx      # D3.js interactive force-directed network graph
-  │   │   ├── WorkflowBuilder.tsx      # Methodology sequencing and workflow planning
-  │   │   ├── Collaboration.tsx        # Socket.io real-time team collaboration
-  │   │   ├── Integrations.tsx         # Slack/Discord webhooks + DefectDojo/Jira config
-  │   │   ├── ReconPlanner.tsx         # Engagement scope and phase planning
-  │   │   ├── FindingsTracker.tsx      # Vulnerability finding tracking and severity
-  │   │   ├── GenericAiModule.tsx      # Reusable AI response display component
-  │   │   ├── GenericCodeModule.tsx    # Reusable code display component
-  │   │   └── ToolkitPortal.tsx        # MODULES portal full-screen container
-  │   │
-  │   ├── data/
-  │   │   ├── cyberResources.ts        # Curated cybersecurity resources and references
-  │   │   └── cyberEducation.ts        # Learning paths and certification roadmaps
-  │   │
-  │   ├── LeftSidebarTools.tsx         # BaseTool — multi-backend AI chat component
-  │   │                                # Supports Gemini, OpenAI, Anthropic, Ollama
-  │   ├── db.ts                        # Dexie IndexedDB schema (graphs, ReconNode type)
-  │   └── utils/
-  │       └── toast.ts                 # Toast notification system (success / error / info)
-  │
-  └── public/
-      └── manifest.json                # PWA web app manifest
-  ```
 
   ---
 
