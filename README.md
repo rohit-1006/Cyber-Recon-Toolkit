@@ -9,7 +9,7 @@
   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
   ```
 
-  ### ☠️ &nbsp; E L I T E &nbsp; A R S E N A L &nbsp; B Y &nbsp; R O H I T &nbsp; ☠️
+  ### ☠️ &nbsp; CYBERSECURITY &nbsp; TOOLKIT &nbsp; B Y &nbsp; R O H I T &nbsp; ☠️
 
   [![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-cybersec--toolkit.netlify.app-00ff41?style=for-the-badge)](https://cybersec-toolkit.netlify.app/)
   [![React](https://img.shields.io/badge/React-19-00ff41?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
