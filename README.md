@@ -1,27 +1,8 @@
   <div align="center">
 
-  ```
-  ██████╗██╗   ██╗██████╗ ███████╗██████╗     ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
-  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗    ██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║
-  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝    ██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║
-  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗    ██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
-  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║    ██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
-  ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
-  ```
-
   ### ☠️ &nbsp; CYBERSECURITY &nbsp; TOOLKIT &nbsp; B Y &nbsp; R O H I T &nbsp; ☠️
 
   [![Live Demo](https://img.shields.io/badge/🌐_LIVE_DEMO-cybersec--toolkit.netlify.app-00ff41?style=for-the-badge)](https://cybersec-toolkit.netlify.app/)
-  [![React](https://img.shields.io/badge/React-19-00ff41?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-00ff41?style=for-the-badge&logo=typescript&logoColor=black)](https://www.typescriptlang.org/)
-  [![Vite](https://img.shields.io/badge/Vite-6.2-00ff41?style=for-the-badge&logo=vite&logoColor=black)](https://vite.dev/)
-  [![Netlify](https://img.shields.io/badge/Netlify-Deployed-00ff41?style=for-the-badge&logo=netlify&logoColor=black)](https://cybersec-toolkit.netlify.app/)
-  [![License](https://img.shields.io/badge/License-MIT-00ff41?style=for-the-badge)](LICENSE)
-
-  [![Categories](https://img.shields.io/badge/Categories-99-cyan?style=flat-square)]()
-  [![Commands](https://img.shields.io/badge/Commands-2900%2B-cyan?style=flat-square)]()
-  [![Exploits](https://img.shields.io/badge/Exploits-∞-red?style=flat-square)]()
-  [![Stealth](https://img.shields.io/badge/Stealth-100%25-yellow?style=flat-square)]()
 
   </div>
   
